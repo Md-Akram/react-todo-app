@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  text-transform: capitalize;
+  text-align: center;
+}
+.flex {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-baseline;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+input {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  outline: none;
+}
+button {
+  outline: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.todolist {
+  min-height: 70vh;
+  display: block;
+  margin: 10px 0;
+}
